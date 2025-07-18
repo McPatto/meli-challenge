@@ -1,0 +1,166 @@
+export const MOCKED_LIST_DATA = {
+  query: "iphone",
+  paging: {
+    total: 4,
+    offset: 1,
+    limit: 3,
+  },
+  results: [
+    {
+      id: "MLA123456789",
+      title: "Apple iPhone 13 (128 GB) - Medianoche",
+      price: 1367999,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_973345-MLA47781591382_102021-F.webp",
+      installments: {
+        quantity: 12,
+        amount: 113999.92,
+      },
+      shipping: {
+        free_shipping: true,
+      },
+      reviews: {
+        rating_average: 4.9,
+        total: 35,
+      },
+    },
+    {
+      id: "MLA987654321",
+      title: "Apple iPhone 16 Pro Max 256gb",
+      price: 2299000,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_893557-MLU79115488779_092024-F.webp",
+    },
+    {
+      id: "MLA555555555",
+      title: "iPhone 8 64 GB Plata - Reacondicionado",
+      price: 412500,
+      currency_id: "ARS",
+      condition: "used",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_691414-MLA49397335928_032022-F.webp",
+      reviews: {
+        rating_average: 5.0,
+        total: 2,
+      },
+    },
+    {
+      id: "MLA123456790",
+      title: "Apple iPhone 13 (128 GB) - Medianoche",
+      price: 1367999,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_973345-MLA47781591382_102021-F.webp",
+      installments: {
+        quantity: 12,
+        amount: 113999.92,
+      },
+      shipping: {
+        free_shipping: true,
+      },
+      reviews: {
+        rating_average: 4.9,
+        total: 35,
+      },
+    },
+    {
+      id: "MLA987654322",
+      title: "Apple iPhone 16 Pro Max 256gb",
+      price: 2299000,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_893557-MLU79115488779_092024-F.webp",
+    },
+    {
+      id: "MLA555555556",
+      title: "iPhone 8 64 GB Plata - Reacondicionado",
+      price: 412500,
+      currency_id: "ARS",
+      condition: "used",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_691414-MLA49397335928_032022-F.webp",
+      reviews: {
+        rating_average: 5.0,
+        total: 2,
+      },
+    },
+    {
+      id: "MLA123456791",
+      title: "Apple iPhone 13 (128 GB) - Medianoche",
+      price: 1367999,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_973345-MLA47781591382_102021-F.webp",
+      installments: {
+        quantity: 12,
+        amount: 113999.92,
+      },
+      shipping: {
+        free_shipping: true,
+      },
+      reviews: {
+        rating_average: 4.9,
+        total: 35,
+      },
+    },
+    {
+      id: "MLA987654323",
+      title: "Apple iPhone 16 Pro Max 256gb",
+      price: 2299000,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_893557-MLU79115488779_092024-F.webp",
+    },
+    {
+      id: "MLA555555557",
+      title: "iPhone 8 64 GB Plata - Reacondicionado",
+      price: 412500,
+      currency_id: "ARS",
+      condition: "used",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_691414-MLA49397335928_032022-F.webp",
+      reviews: {
+        rating_average: 5.0,
+        total: 2,
+      },
+    },
+    {
+      id: "MLA123456792",
+      title: "Apple iPhone 13 (128 GB) - Medianoche",
+      price: 1367999,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_973345-MLA47781591382_102021-F.webp",
+      installments: {
+        quantity: 12,
+        amount: 113999.92,
+      },
+      shipping: {
+        free_shipping: true,
+      },
+      reviews: {
+        rating_average: 4.9,
+        total: 35,
+      },
+    },
+    {
+      id: "MLA987654324",
+      title: "Apple iPhone 16 Pro Max 256gb",
+      price: 2299000,
+      currency_id: "ARS",
+      condition: "new",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_893557-MLU79115488779_092024-F.webp",
+    },
+    {
+      id: "MLA555555558",
+      title: "iPhone 8 64 GB Plata - Reacondicionado",
+      price: 412500,
+      currency_id: "ARS",
+      condition: "used",
+      thumbnail: "https://http2.mlstatic.com/D_NQ_NP_2X_691414-MLA49397335928_032022-F.webp",
+      reviews: {
+        rating_average: 5.0,
+        total: 2,
+      },
+    },
+  ],
+};
