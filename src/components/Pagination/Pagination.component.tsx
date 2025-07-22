@@ -60,7 +60,7 @@ export const Pagination: FC<PaginationProps> = ({
   const handleNextPage = () => handlePageChange(currentPage + 1);
 
   return (
-    <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
+    <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6 w-full">
       <div className="flex flex-1 justify-between sm:hidden">
         <button
           onClick={handlePrevPage}
@@ -87,7 +87,7 @@ export const Pagination: FC<PaginationProps> = ({
         </div>
         
         <div>
-          <nav aria-label="Paginación" className="isolate inline-flex -space-x-px rounded-md shadow-xs">
+          <nav aria-label="Paginación" className="isolate inline-flex -space-x-px rounded-md shadow-xs gap-1">
             <NavigationButton
               direction="prev"
               onClick={handlePrevPage}

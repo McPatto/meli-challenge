@@ -1,6 +1,6 @@
 import { Product } from "@/modelTypes";
 
-export interface ProductListResultProps {
+export interface ProductRowProps {
   product: Product;
   onClick: () => void;
 }
