@@ -1,5 +1,48 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Requirements
+
+- **Node.js**: >= 20.11.1
+- **next**: 15.3.5
+- **react**: ^19.0.0
+- **react-dom**: ^19.0.0
+- **tailwindcss**: ^4.1.11
+- **typescript**: ^5
+
+> All other dependencies and devDependencies are listed in `package.json`.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd meli-challenge
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000) to see the app running.
+
+## Technical Decisions
+
+- **Next.js App Router:** The project uses the new App Router (`/app` directory) for improved routing and layouts.
+- **TypeScript:** All code is written in TypeScript for type safety and better developer experience.
+- **Tailwind CSS:** Utility-first CSS framework for rapid UI development and responsive design.
+- **Component Structure:** Components are organized by feature and subcomponents, following a modular and scalable approach.
+- **Mock Data:** Product and list data are mocked in the `/src/mocks` directory for development and testing purposes.
+- **Accessibility:** Semantic HTML and accessibility best practices are applied (e.g., `sr-only` classes for screen readers).
+- **Reusable UI:** Skeleton loaders and not-found UIs are implemented for better user experience during loading and error states.
+
 ## Getting Started
 
 First, run the development server:
