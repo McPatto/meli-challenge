@@ -35,13 +35,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Technical Decisions
 
+- **Next.js:** This project is created in Next.js in order to be ranked in Google search with help of SEO best practices. This is an e-commerce page, and it needs to be discovered by the users in the browsers.
 - **Next.js App Router:** The project uses the new App Router (`/app` directory) for improved routing and layouts.
 - **TypeScript:** All code is written in TypeScript for type safety and better developer experience.
 - **Tailwind CSS:** Utility-first CSS framework for rapid UI development and responsive design.
-- **Component Structure:** Components are organized by feature and subcomponents, following a modular and scalable approach.
+- **Component Structure:** Components are organized by feature and subcomponents, following a modular and scalable approach. The files must have a `.component` naming and it's own `index.ts`.
 - **Mock Data:** Product and list data are mocked in the `/src/mocks` directory for development and testing purposes.
-- **Accessibility:** Semantic HTML and accessibility best practices are applied (e.g., `sr-only` classes for screen readers).
+- **Accessibility:** We added some semantic HTML and accessibility best practices (e.g., `sr-only` classes for screen readers).
 - **Reusable UI:** Skeleton loaders and not-found UIs are implemented for better user experience during loading and error states.
+- **Global State:** This project does not use Context or Zustand. At first it seemed to be needed to use Context, but the way that the search input pushed to the query and how we get the searchParams avoided the use of a global state.
+- **Testing:** This project uses `jest` to do some unit testing. We added a few tests to prevent unexpected behaviours.
+
+## What I would do with more time
+
+If I'd had more time, I would:
+- Add some end to end tests with `Cypress`.
+- Add a shopping cart and a checkout page.
+- Add a better UI `Home` page, like some cards on the page or smth.
+- Add more SEO metadata.
+- Add more unit testing, in order to have more coverage.
 
 ## Getting Started
 
@@ -51,10 +63,6 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
